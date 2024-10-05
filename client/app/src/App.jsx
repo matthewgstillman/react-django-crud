@@ -53,6 +53,8 @@ function App() {
           <div>
             <p>Title: {book.title}</p>
             <p>Release Year: {book.release_year}</p>
+            <input type="text" placeholder="New title..." />
+            <button>Change Title</button>
           </div>
         )}
       </div>
